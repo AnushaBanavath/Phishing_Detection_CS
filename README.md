@@ -1,7 +1,7 @@
 # 🎯 Phishing Website Detection Using Machine Learning
 
 **Cyber Security – Assignment 2 (CBIT 2025-26)**  
-Based on *Anshika Saxena & Nikhil Chaudhary, IJRASET 2021*
+Based on *H V Kishan Kumar, Praveen K S, IJRASET54850 2023-07-19*
 
 ---
 
@@ -70,8 +70,7 @@ Phishing-Detection-CS/
 
 6. **Visualization**  
    - Plotted **Accuracy Comparison** between all models  
-   - Plotted **Confusion Matrix** for RFE + RF  
-   - Saved plots in `images/` folder  
+   - Plotted **Confusion Matrix** for RFE + RF 
 
 7. **Results**  
    - Decision Tree Accuracy: 94.5%  
@@ -88,23 +87,6 @@ Phishing-Detection-CS/
 | Random Forest           | 96.0 %    |
 | **RFE + RF (Proposed)** | **97.2 %** |
 
-> Using RFE allowed the model to focus on the **most important features**, improving prediction accuracy.
-
----
-
-## 📷 Generated Plots
-
-- **Accuracy Comparison:** `images/accuracy_comparison.png`  
-- **Confusion Matrix:** `images/confusion_matrix.png`  
-
-*(Run the notebook to generate actual plots)*
-
----
-
-## 📚 References
-
-- Anshika Saxena & Nikhil Chaudhary,  
-  *"Phishing Website Detection Using Machine Learning," IJRASET Vol 9 (4), 2021.*
 
 ---
 
@@ -112,10 +94,4 @@ Phishing-Detection-CS/
 
 [https://github.com/AnushaBanavath/Phishing_Detection_CS](https://github.com/AnushaBanavath/Phishing_Detection_CS)
 
----
 
-## 📝 Notes
-
-- Ensure the dataset `phishing.csv` is in the `data/` folder  
-- Generated plots are saved automatically in `images/`  
-- RFE features can be adjusted for experimentation
